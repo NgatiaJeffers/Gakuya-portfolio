@@ -104,9 +104,8 @@ input, select, textarea {
 /* Make Sure to revisit this part line 94 */
 	body {
         background-image: url("../img/back4.jpg");
-        background-repeat: no repeat;
+        background-repeat: repeat;
         background-size: cover;
-
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3300,12 +3299,14 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(222, 222, 222, 0.25);
+						background-color: #000;
+						color: #fff;
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
+						background-color: #000;
 						box-shadow: none;
+						color: #fff;
 					}
 
 		#nav.alt {
@@ -3336,6 +3337,11 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
+		}
+
+		.dev {
+			color: #013328;
+			font-weight: 600;
 		}
 
 /* Main */
