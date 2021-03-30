@@ -104,8 +104,11 @@ input, select, textarea {
 /* Make Sure to revisit this part line 94 */
 	body {
         background-image: url("../img/back4.jpg");
-        background-repeat: repeat;
-        background-size: cover;
+		background-attachment: fixed;
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,14 +123,14 @@ input, select, textarea {
 		}
 
 		.word {
-			color: #f7f7f7;
+			color: #CC8B65;
 		}
 
 /* Type */
 
 	body {
 		background-color: #f7f7f7;
-		color: rgba(0, 0, 0, 0.65);
+		color: #1D3124;
 	}
 
 	body, input, select, textarea {
@@ -2657,6 +2660,8 @@ input, select, textarea {
 				height: 2px;
 				margin: 0.7em 0 1em 0;
 				border-radius: 2px;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 				section.special header.major h2:after, article.special header.major h2:after {
@@ -2984,7 +2989,7 @@ input, select, textarea {
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
-		align-items: center;
+		align-items: center !important;
 		margin: 0 0 2em 0;
 	}
 
@@ -2993,6 +2998,7 @@ input, select, textarea {
 			-webkit-flex: 1;
 			-ms-flex: 1;
 			flex: 1;
+			text-align: center;
 		}
 
 			.spotlight .content > :last-child {
@@ -3222,7 +3228,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #E3DCD2;
-		color: #000;
+		color: #1D3124;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
@@ -3235,19 +3241,19 @@ input, select, textarea {
 	}
 
 		#nav input, #nav select, #nav textarea {
-			color: #000;
+			color: #1D3124;
 		}
 
 		#nav a:hover {
-			color: #000;
+			color: #1D3124;
 		}
 
 		#nav strong, #nav b {
-			color: #000;
+			color: #1D3124;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #000;
+			color: #1D3124;
 		}
 
 		#nav blockquote {
@@ -3299,12 +3305,12 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: #000;
+						background-color: #1D3124;
 						color: #fff;
 					}
 
 					#nav ul li a.active {
-						background-color: #000;
+						background-color: #1D3124;
 						box-shadow: none;
 						color: #fff;
 					}
@@ -3348,24 +3354,24 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
-		color: #000;
+		color: #1D3124;
 		border-radius: 0.25em;
 	}
 
 		#main input, #main select, #main textarea {
-			color: #000;
+			color: #1D3124;
 		}
 
 		#main a:hover {
-			color: #000;
+			color: #1D3124;
 		}
 
 		#main strong, #main b {
-			color: #000;
+			color: #1D3124;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #000;
+			color: #1D3124;
 		}
 
 		#main blockquote {
@@ -3474,10 +3480,6 @@ input, select, textarea {
 				border-color: #8cc9f0;
 				box-shadow: 0 0 0 1px #8cc9f0;
 			}
-
-		#main select {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dddddd' /%3E%3C/svg%3E");
-		}
 
 			#main select option {
 				color: #000;
