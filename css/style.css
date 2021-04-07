@@ -3768,6 +3768,19 @@ input, select, textarea {
 
 		}
 
+		/* .mail {
+			
+			
+		} */
+
+		.mail:hover {
+			cursor: pointer;
+			text-decoration: underline;
+			color: #935d8c !important;
+			-webkit-backface-visibility: hidden;
+			-webkit-transform: translateZ(0) scale(1, 1);
+		}
+
 /* Wrapper */
 
 	#wrapper {
