@@ -2,23 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Dev::Gakuya || Portfolio</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <!-- CSS FILE -->
-    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
-<body class="font-body">
-    <div class="container">
-        <h1>Hello Dev Gakuya</h1>
-        <hr>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Hic deleniti quisquam, distinctio accusantium odit
-            aliquam enim in odio. Facilis eveniet error beatae
-            cumque delectus vitae hic sed, porro nesciunt asperiores.</p>
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- Header -->
+        <header class="alt" id="header">
+
+            <h1>{Jefferson Gakuya}</h1>
+            <!-- <img src="img/jefflogo.svg" alt=""> -->
+            <p class="word">Software Engineer | Web Development/></p>
+            <ul class="icons">
+                <li><a href="https://github.com/NgatiaJeffers/" class="icon brands fa-github alt" target="_blank"><span class="label">GitHub</span></a> </li>
+                <li><a href="https://www.linkedin.com/in/jefferson-gakuya-8b4a6b1b5/" class="icon brands fa-linkedin alt" target="_blank"><span class="label">LinkedIn</span></a></li>
+            </ul>
+        </header>
+
+        <!-- Navbar -->
+        <nav id="nav">
+            <ul>
+                <li><a href="#intro" class="active">Introduction/></a></li>
+                <li><a href="#first">Portfolio/></a></li>
+                <li><a href="#second">Experience/></a></li>
+                <li><a href="#cta">About/></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+            <!-- Introduction -->
+            <section id="intro" class="main">
+                <div class="spotlight">
+                    <div class="content">
+                        <header class="major">
+                            <h2>Introduction/></h2>
+                        </header>
+                        <p>
+                            Hello, I am <strong class="dev">Jefferson/></strong> and I am a Software Engineer Student graduating
+                            in May of 2021, from the <a href="https://moringaschool.com/">Moringa School.</a>
+                            It is my intention to obtain a full-time position as a Software
+                            Engineer/Software Developer to gain experience in the Software
+                            industry and learn more so that I can contribute to the
+                            advancement of technology!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfoilio -->
+            <section id="first" class="main special">
+                <header class="major">
+                    <h2>Portfolio/></h2>
+                </header>
+                    <!-- Project One -->
+                    <img src="img/devgram.png" alt="" style="width:50%; height:40% object-fit:cover">
+                    <h3><a target="_blank" href="https://gakuyagram.herokuapp.com/">Dev Gram</a></h3>
+                    <p>A clone of the website for the popular photo app like Instagram.
+                        Made with Python and Django Framework
+                    </p>
+
+                    <!-- Project Two -->
+                    <img src="img/gal.png" alt="" style="width:50%; height:40% object-fit:cover">
+                    <h3><a target="_blank" href="https://gallerydev.herokuapp.com/">Dev Gallery</a></h3>
+                    <p>A Django Framework personal gallery application that you display your photos for others to see.</p>
+
+                    <!-- Project Three -->
+                    <img src="img/pizz.png" alt="" style="width:50%; height:40% object-fit:cover">
+                    <h3><a target="_blank" href="https://ngatiajeffers.github.io/Pizza-Palace/">Pizza Website</a></h3>
+                    <p>A Javascript Pizza App, one can place an order and get an email from the website.
+                        I love my pizza so much, in fact, that I have come to believe in my delirium
+                        that my pizza might actually love me, in return. I am having a relationship
+                        with this pizza, almost an affair..</p>
+
+                    <!-- Project Four -->
+                    <img src="img/git.png" alt="" style="width:50%; height:40% object-fit:cover">
+                    <h3><a target="_blank" href="https://ngatiajeffers.github.io/GitHub-Search-App/">GitHub Search App</a></h3>
+                    <p>An app to search for users in GitHub.</p>
+            </section>
+
+            <section id="cta" class="main special">
+                <header class="major">
+                    <h2>About Dev Gakuya</h2>
+                </header>
+                <p>
+                    I’m a web developer with a design background in other
+                    words I went to coding school and reformed to a programmer.
+                    I help designers, small agencies and businesses bring
+                    their ideas into life. Powered by Figma, Vs Code and coffee.
+                </p>
+                <footer class="major">
+                    <h3>Contact Me</h3>
+                    <a href="mailto:jeffersongakuya@gmail.com">
+                        <h1 class="mail">jeffersongakuya@gmail.com</h1>
+                    </a>
+                </footer>
+            </section>
+        </div>
+
     </div>
 
-
-
-    <script src="js/script.js"></script>
+        <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.scrollex.min.js"></script>
+    <script src="js/jquery.scrolly.min.js"></script>
+    <script src="js/browser.min.js"></script>
+    <script src="js/breakpoints.min.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
