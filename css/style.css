@@ -131,7 +131,7 @@ input, select, textarea {
 
 	body {
 		background-color: #f7f7f7;
-		color: #1D3124;
+		color: #000;
 	}
 
 	body, input, select, textarea {
@@ -3227,7 +3227,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #FFF;
-		color: #1D3124;
+		color: #000;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
@@ -3240,19 +3240,19 @@ input, select, textarea {
 	}
 
 		#nav input, #nav select, #nav textarea {
-			color: #1D3124;
+			color: #000;
 		}
 
 		#nav a:hover {
-			color: #1D3124;
+			color: #000;
 		}
 
 		#nav strong, #nav b {
-			color: #1D3124;
+			color: #000;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #1D3124;
+			color: #000;
 		}
 
 		#nav blockquote {
@@ -3361,19 +3361,19 @@ input, select, textarea {
 	}
 
 		#main input, #main select, #main textarea {
-			color: #1D3124;
+			color: #000;
 		}
 
 		#main a:hover {
-			color: #1D3124;
+			color: #000;
 		}
 
 		#main strong, #main b {
-			color: #1D3124;
+			color: #000;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #1D3124;
+			color: #000;
 		}
 
 		#main blockquote {
