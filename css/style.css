@@ -3356,6 +3356,10 @@ input, select, textarea {
 			font-weight: 900;
 		}
 
+		.connect {
+			font-style: italic;
+		}
+
 /* Main */
 
 	#main {
